@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* utility */
+.circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+body {
+	background-color: black;
+}
+
+.flex {
+	display: flex;
+}
+
+header {
+	width: 100%;
+	height: 30px;
+	background-color: lightgray;
+	border-radius: 5px;
+}
+
+.header-container {
+	width: 60%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.red {
+	background-color: red;
+	margin-left: 10px;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
+
+.square {
+	width: 150px;
+	border-color: white;
+	border: white 4px solid;
+	background-color: grey;
+	margin-left: 5px;
+}
+
+/* main */
+
+main {
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	padding: 0 20px;
+}
+
+.visual {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.visual span {
+	padding: 3px 0;
+	margin: 2px;
+	border-radius: 5px;
+	background-image: linear-gradient(#3b3b3b, #212121);
+}
+
+.visual i {
+	padding: 5px;
+}
+
+.webcam {
+	width: 1263px;
+	height: 726px;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.utente {
+	width: 247px;
+	height: 135px;
+	position: relative;
+	overflow: hidden;
+}
+
+.webcam {
+	position: relative;
+}
+
+.back i {
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+}
+
+.forward i {
+	color: #39bbfc;
+	font-size: 50px;
+}
+
+.back,
+.forward {
+	text-align: center;
+}
+
+.name {
+	color: white;
+	min-width: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0;
+}
+
+.utente img {
+	height: 100%;
+	width: 100%;
+}
+
+.yellow-border {
+	border: 4px solid yellow;
+}
+
+footer {
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	width: 100%;
+	background-color: #212223;
+	color: rgb(255, 255, 255);
+}
+
+footer i {
+	font-size: 30px;
+}
+
+.fa-chevron-up {
+	font-size: 15px;
+}
+
+.fa-share-square {
+	color: #51c623;
+}
+
+.mute {
+	width: 205px;
+}
+
+.share-screen {
+	width: 800px;
+}
+.mute,
+.share-screen,
+.end-meeting {
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+
+.end-meeting {
+	background-color: #444748;
+	width: 100px;
+	color: red;
+}
